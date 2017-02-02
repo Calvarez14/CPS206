@@ -11,4 +11,14 @@ public class RecursionExample{
      if (n==1) return (n*n+n)/2;
      return n * doSum()
    }
+   public int sumRange(int f, t){
+     return doSum(to)-doSum(from);
+   }
+   do multiRange(from, to, from, to){
+     return doRange(from,to);
+            doRange(from,to);
+   }
+   doFactorialMultiRange(#){
+     return doFactorial(doMultiRange)
+   }
 }
