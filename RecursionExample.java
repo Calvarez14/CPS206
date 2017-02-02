@@ -4,8 +4,11 @@ public class RecursionExample{
       System.out.println(recursion.doFactorial(5));
    }
    public int doFactorial(int n){
-      if(n==1) 
-         return 1;
+      if(n==1) return 1;
       return n * doFactorial(n-1);
+   }
+   public int doSum(int n){
+     if (n==1) return (n*n+n)/2;
+     return n * doSum()
    }
 }
