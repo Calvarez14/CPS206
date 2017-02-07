@@ -1,7 +1,10 @@
 package edu.jalc.inclass.bottle;
 
-class SodaBottle{
-  public static void main(String... args){
-    
+public class SodaBottle{
+
+  private final double capacity = 20;
+
+  public double getCapacity(){
+    return capacity;
   }
 }
