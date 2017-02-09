@@ -3,16 +3,16 @@ public class SodaBottleLabel{
 
   private String brand;
   private Logo logo;
-  private Ingredients ingredients;
+  private Ingredient ingredient;
 
-  private SodaBottleLabel(String brand, Logo logo, Ingredients ingredients){
+  public SodaBottleLabel(String brand, Logo logo, Ingredient ingredient){
     this.brand = brand;
     this.logo = logo;
-    this.ingredients = ingredients;
+    this.ingredient = ingredient;
   }
 
   public String getBrand(){ return this.brand; }
   public Logo getLogo(){ return this.logo; }
-  public Ingredients getIngredients(){ return this.ingredients; }
+  public Ingredient getIngredient(){ return this.ingredient; }
 
 }
