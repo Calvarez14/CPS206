@@ -1,4 +1,8 @@
 package edu.jalc.inclass.label;
+
+import edu.jalc.inclass.logo;
+import edu.jalc.inclass.ingredient;
+
 public class SodaBottleLabel{
 
   private String brand;
@@ -11,8 +15,16 @@ public class SodaBottleLabel{
     this.ingredient = ingredient;
   }
 
-  public String getBrand(){ return this.brand; }
-  public Logo getLogo(){ return this.logo; }
-  public Ingredient getIngredient(){ return this.ingredient; }
+  public String getBrand(){
+    return this.brand;
+  }
+
+  public Logo getLogo(){
+    return this.logo;
+  }
+
+  public Ingredient getIngredient(){
+    return this.ingredient;
+  }
 
 }
