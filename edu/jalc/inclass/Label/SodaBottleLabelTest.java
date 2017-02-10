@@ -1,39 +1,40 @@
-package edu.jalc.inclass.Label;
+package edu.jalc.inclass.label;
 
-import edu.jalc.inclass.logo;
-import edu.jalc.inclass.ingredient;
+import edu.jalc.inclass.logo.Logo;
+import edu.jalc.inclass.ingredient.Ingredient;
 
 public class SodaBottleLabelTest{
 
    public void testGetBrand(){
       System.out.println("Testing SodaBottleLabel: :getTestBrand");
-      SodaBottleLogo sodaBottleLogo = new SodaBottleLogo(15);
-      SodaBottleIngredient sodaBottleIngredient = new SodaBottleIngredient("Water");
-      SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",sodaBottleLogo,sodaBottleIngredient);
+      Logo logo = new Logo(15);
+      Ingredient ingredient = new Ingredient("Water");
+      SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",logo,ingredient);
       String fanta = "Fanta";
       assert(sodaBottleLabel.getBrand().equals(fanta));
    }
 
    public void testGetLogo(){
      System.out.println("Testing SodaBottleLabel: :getTestLogo");
-     SodaBottleLogo sodaBottleLogo = new SodaBottleLogo(15);
-     SodaBottleIngredient sodaBottleIngredient = new SodaBottleIngredient("Water");
-     SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",sodaBottleLogo,sodaBottleIngredient);
-     assert(SodaBottleLogo.equals(sodaBottleLabel.getSodaBottleLogo()));
+     Logo logo = new Logo(15);
+     Ingredient ingredient = new Ingredient("Water");
+     SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",logo,ingredient);
+     assert(logo.equals(sodaBottleLabel.getLogo()));
    }
 
    public void testGetIngredient(){
       System.out.println("Testting SodaBottleLabel: :getTestIngredient");
-      SodaBottleLogo sodaBottleLogo = new SodaBottleLogo(15);
-      SodaBottleIngredient sodaBottleIngredient = new SodaBottleIngredient("Water");
-      SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",sodaBottleLogo,sodaBottleIngredient);
-      assert(sodaBottleIngredient.equals(sodaBottleLabel.getSodaBottleIngredient())));
+      Logo logo = new Logo(15);
+      Ingredient ingredient = new Ingredient("Water");
+      SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",logo,ingredient);
+      assert(ingredient.equals(sodaBottleLabel.getIngredient()));
    }
+
    public static void main(String... args) throws Exception{
       SodaBottleLabelTest test = new SodaBottleLabelTest();
-      test.testgetBrand();
+      test.testGetBrand();
       test.testGetLogo();
-      test.testGetIngredients();
+      test.testGetIngredient();
 
       System.out.println("All SodaBottleLabel tests passed");
    }

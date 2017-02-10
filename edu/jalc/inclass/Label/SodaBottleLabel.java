@@ -1,7 +1,7 @@
-package edu.jalc.inclass.Label;
+package edu.jalc.inclass.label;
 
-import edu.jalc.inclass.logo;
-import edu.jalc.inclass.ingredient;
+import edu.jalc.inclass.logo.Logo;
+import edu.jalc.inclass.ingredient.Ingredient;
 
 public class SodaBottleLabel{
 
