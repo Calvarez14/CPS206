@@ -1,4 +1,4 @@
-package edu.jalc.inclass.label;
+package edu.jalc.inclass.Label;
 
 import edu.jalc.inclass.logo.Logo;
 import edu.jalc.inclass.ingredient.Ingredient;
@@ -18,7 +18,7 @@ public class SodaBottleLabelTest{
      System.out.println("Testing SodaBottleLabel: :getTestLogo");
      Logo logo = new Logo(15);
      Ingredient ingredient = new Ingredient("Water");
-     SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("Fanta",logo,ingredient);
+     SodaBottleLabel sodaBottleLabel = new SodaBottleLabel("anta",logo,ingredient);
      assert(logo.equals(sodaBottleLabel.getLogo()));
    }
 

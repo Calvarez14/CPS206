@@ -1,4 +1,4 @@
-package edu.jalc.inclass.label;
+package edu.jalc.inclass.Label;
 
 import edu.jalc.inclass.logo.Logo;
 import edu.jalc.inclass.ingredient.Ingredient;
