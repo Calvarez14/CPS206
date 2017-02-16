@@ -6,13 +6,13 @@ import edu.jalc.iphone.size.IphoneSize;
 public class Phone{
 
   private String brand;
-  private Logo logo;
-  private Size size;
+  private IphoneLogo logo;
+  private IphoneSize size;
 
   private Phone(){
     this.brand = null;
     this.logo = null;
-    this.size = 0.0;
+    this.size = null;
   }
 
   public Phone(String brand){
@@ -25,11 +25,11 @@ public class Phone{
     return brand;
   }
 
-  public Logo getlogo(){
+  public IphoneLogo getLogo(){
     return logo;
   }
 
-  public Size getSize(){
+  public IphoneSize getSize(){
     return size;
   }
 }

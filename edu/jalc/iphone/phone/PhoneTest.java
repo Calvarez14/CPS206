@@ -8,12 +8,12 @@ public class PhoneTest{
   public void testGetBrand(){
     System.out.println("Testing Phone getBrand");
     Phone phone = new Phone("Iphone");
-    assert(phone.getBrand().equals("Iphone"));
+    assert(phone.getBrand().equals("Iphoe"));
   }
 
   public static void main(String... args){
-    Phone phone = new Phone();
-    phone.testGetBrand();
+    PhoneTest phoneTest = new PhoneTest();
+    phoneTest.testGetBrand();
     System.out.println("Test Completed");
   }
 }
