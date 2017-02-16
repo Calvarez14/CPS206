@@ -1,7 +1,7 @@
-package lab2.phone;
+package edu.jalc.iphone.phone;
 
-import lab2.logo.IphoneLogo;
-import lab2.size.IphoneSize;
+import edu.jalc.iphone.logo.IphoneLogo;
+import edu.jalc.iphone.size.IphoneSize;
 
 public class PhoneTest{
 

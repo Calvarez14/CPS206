@@ -1,4 +1,4 @@
-package lab2.size;
+package edu.jalc.iphone.size;
 
 public class IphoneSizeTest{
 

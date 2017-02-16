@@ -1,4 +1,4 @@
-package lab2.logo;
+package edu.jalc.iphone.logo;
 
 public class IphoneLogoTest{
 
