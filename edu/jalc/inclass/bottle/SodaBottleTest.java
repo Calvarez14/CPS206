@@ -6,7 +6,7 @@ public class SodaBottleTest{
 
       System.out.println("Testing SodaBottle::getCapacity");
       SodaBottle sodaBottle = new SodaBottle();
-      assert(sodaBottle.getCapacity() == 20.0);
+      assert(sodaBottle.getCapacity() == 0.0);
    }
 
    public static void main(String... args){
