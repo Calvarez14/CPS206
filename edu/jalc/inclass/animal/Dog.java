@@ -14,4 +14,5 @@ public class Dog extends Animal {
 		this.bark = bark;
 		this.whimper = whimper;
 	}
+
 }

@@ -16,4 +16,8 @@ abstract public class Animal {
 		return this.growls;
 	}
 
+	 public String toString(){
+		 return this.getGrowl();
+	 }
+
 }

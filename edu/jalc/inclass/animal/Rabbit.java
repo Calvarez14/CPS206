@@ -14,4 +14,5 @@ public class Rabbit extends Animal{
     this.mutter = mutter;
     this.squeal = squeal;
   }
+
 }

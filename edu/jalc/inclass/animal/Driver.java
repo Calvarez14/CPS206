@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class Driver{
 
-  public static String animalSay(Animal animal){
-    return animal.getGrowl();
+  public static void animalSay(Animal animal){
+    System.out.println(animal);
   }
 
   public static void main(String... args){
@@ -18,10 +18,9 @@ public class Driver{
     animals.add(new Cat("meow", "purr", "growl"));
     animals.add(new Rabbit("growl", "mutter", "squeal"));
 
-    int index = 0;
+
     for(Animal animal : animals){
-      System.out.println("Animal Sound " + animalSay(animals.get(index)));
-      index++;
+     animalSay(animal);
     }
   }
 }
